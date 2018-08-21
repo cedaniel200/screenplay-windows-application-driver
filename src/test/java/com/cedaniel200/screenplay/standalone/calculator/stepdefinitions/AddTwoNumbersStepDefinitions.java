@@ -1,6 +1,6 @@
 package com.cedaniel200.screenplay.standalone.calculator.stepdefinitions;
 
-import com.cedaniel200.screenplay.standalone.calculator.Questions.TheResult;
+import com.cedaniel200.screenplay.standalone.calculator.questions.TheResult;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -9,7 +9,7 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
 
-import static com.cedaniel200.screenplay.standalone.calculator.Model.NumberToOperateBuilder.theNumbers;
+import static com.cedaniel200.screenplay.standalone.calculator.model.NumberToOperateBuilder.theNumbers;
 import static com.cedaniel200.screenplay.standalone.calculator.tasks.Add.add;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.core.Is.is;

@@ -1,6 +1,6 @@
 package com.cedaniel200.screenplay.standalone.calculator.tasks;
 
-import com.cedaniel200.screenplay.standalone.calculator.Model.NumberToOperate;
+import com.cedaniel200.screenplay.standalone.calculator.model.NumberToOperate;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;

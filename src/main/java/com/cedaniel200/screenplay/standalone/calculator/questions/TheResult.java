@@ -1,4 +1,4 @@
-package com.cedaniel200.screenplay.standalone.calculator.Questions;
+package com.cedaniel200.screenplay.standalone.calculator.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;

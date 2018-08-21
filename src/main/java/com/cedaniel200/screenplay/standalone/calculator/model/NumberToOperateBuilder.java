@@ -1,4 +1,4 @@
-package com.cedaniel200.screenplay.standalone.calculator.Model;
+package com.cedaniel200.screenplay.standalone.calculator.model;
 
 import java.util.ArrayList;
 import java.util.List;
