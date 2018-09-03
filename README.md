@@ -8,7 +8,7 @@ Las pruebas de este ejemplo se corren contra la Calculadora aplicacion de escrit
 
 ## Requerimientos
 
-Para correr el proyecto se necesita Java JDK 1.8 y Gradle preferiblemente con la versión 4.7.
+Para correr el proyecto se necesita que el sistema operativo sea Windows 10, utilizar Java JDK 1.8 y Gradle preferiblemente con la versión 4.7.
 
 Es necesario tener instalada la última versión de Windows Application Driver, la puedes descargar en:
 https://github.com/Microsoft/WinAppDriver/releases/tag/v1.1-Preview
@@ -32,7 +32,7 @@ The tests in this example are run against the Windows desktop application calcul
 
 ##Requirements
 
-To run the project you need Java JDK 1.8 and Gradle preferably with version 4.7.
+To run the project, the operating system must be Windows 10, use Java JDK 1.8 and Gradle preferably with version 4.7.
 
 It is necessary to have installed the latest version of Windows Application Driver, you can download it in:
 https://github.com/Microsoft/WinAppDriver/releases/tag/v1.1-Preview
