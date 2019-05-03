@@ -13,10 +13,10 @@ import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class Add implements Task {
 
-    private NumberToOperate numbersToOperate;
+    private Iterator<Integer> numbers;
 
     public Add(NumberToOperate numbersToOperate) {
-        this.numbersToOperate = numbersToOperate;
+        numbers = numbersToOperate.getNumbers().iterator();
     }
 
     public static Add add(NumberToOperate numbersToOperate) {
@@ -25,7 +25,6 @@ public class Add implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        Iterator<Integer> numbers = numbersToOperate.getNumbers().iterator();
         while (numbers.hasNext()) {
             String number = numbers.next().toString();
             actor.attemptsTo(
